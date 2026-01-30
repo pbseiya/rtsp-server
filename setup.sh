@@ -13,8 +13,8 @@ DEMO_CLIPS_DIR="demo_clips"
 
 # PLACEHOLDER: Update these URLs after uploading to GitHub Releases
 # Example: https://github.com/pbseiya/rtsp-server/releases/download/v1.0.0/living.mp4
-LIVING_MP4_URL="REPLACE_WITH_GITHUB_RELEASE_URL_FOR_LIVING_MP4"
-WALKING_MP4_URL="REPLACE_WITH_GITHUB_RELEASE_URL_FOR_WALKING_MP4"
+LIVING_MP4_URL="https://github.com/pbseiya/rtsp-server/releases/download/v1.0.0/living.mp4"
+WALKING_MP4_URL="https://github.com/pbseiya/rtsp-server/releases/download/v1.0.0/walking.mp4"
 
 echo "🚀 Starting setup..."
 
