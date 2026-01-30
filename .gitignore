@@ -1,0 +1,23 @@
+# MediaMTX
+mediamtx_rtsp_server/
+mediamtx_v1.9.3_linux_amd64.tar.gz
+
+# Logs and runtime files
+*.log
+*.tmp
+recordings/
+
+# Video and Large Assets
+demo_clips/*.mp4
+*.png
+*.jpg
+*.jpeg
+demo_clips$
+
+# Python/Environment
+__pycache__/
+.ipynb_checkpoints/
+*.ipynb
+.env
+venv/
+.DS_Store
