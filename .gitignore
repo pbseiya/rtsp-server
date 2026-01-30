@@ -9,6 +9,7 @@ recordings/
 
 # Video and Large Assets
 demo_clips/*.mp4
+demo_clips/*.avi
 *.png
 *.jpg
 *.jpeg
