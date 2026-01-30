@@ -8,8 +8,8 @@ mediamtx_v1.9.3_linux_amd64.tar.gz
 recordings/
 
 # Video and Large Assets
-demo_clips/*.mp4
-demo_clips/*.avi
+demo_clips/*
+!demo_clips/.gitkeep
 *.png
 *.jpg
 *.jpeg
