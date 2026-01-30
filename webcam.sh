@@ -13,12 +13,13 @@ FRAMERATE="30"
 
 # Start FFmpeg stream
 ffmpeg -f v4l2 \
-    -i "$VIDEO_DEVICE" \
-    -input_format yuyv422 \
-    -framerate "$FRAMERATE" \
+    -input_format mjpeg \
     -video_size "$RESOLUTION" \
+    -framerate "$FRAMERATE" \
+    -i "$VIDEO_DEVICE" \
     -c:v libx264 \
     -preset ultrafast \
     -tune zerolatency \
+    -g 30 \
     -f rtsp \
     rtsp://localhost:$RTSP_PORT/$STREAM_NAME
